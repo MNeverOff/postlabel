@@ -88,7 +88,7 @@ export class EventTracker {
             }
         });
 
-        const usageEventTypeMap = usageEventTypes.reduce((map, eventType) => {
+        const usageEventTypeMap = usageEventTypes.reduce((map: Record<number, UsageEventType>, eventType) => {
             map[eventType.id] = eventType.name as UsageEventType;
             return map;
         }, {} as Record<number, UsageEventType>);
