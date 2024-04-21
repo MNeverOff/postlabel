@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/sitemap.xml", "destination": "/.next/static/sitemap.xml" },
+    { "source": "/robots.txt", "destination": "/.next/static/robots.txt" }
+  ]
+}
