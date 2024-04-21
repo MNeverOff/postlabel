@@ -4,14 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate --schema=./src/lib/prisma/schema.prisma && next build",
+    "build": "prisma generate --schema=./src/lib/schema.prisma && next build",
     "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "prisma generate --schema=./src/lib/prisma/schema.prisma"
+    "postinstall": "prisma generate --schema=./src/lib/schema.prisma"
   },
   "prisma": {
-    "seed": "ts-node -r tsconfig-paths/register /src/lib/prisma/seed.ts"
+    "seed": "ts-node -r tsconfig-paths/register /src/lib/seed.ts"
   },
   "dependencies": {
     "@prisma/client": "^5.5.2",
