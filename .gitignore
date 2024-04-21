@@ -1,0 +1,9 @@
+# dependencies
+/node_modules
+
+# next
+.next
+
+# misc
+.DS_Store
+.editorconfig
