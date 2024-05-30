@@ -82,16 +82,16 @@ export class Label {
             } else {
                 this.name = LabelType.RMInternationalMobile;
             }
+        } else if (combinedText.includes('*** Instructions *** Please attach to parcel.')) {
+            this.name = LabelType.ParcelForce;
+        } else if (combinedText.includes('Prepaid and printed from') || combinedText.includes('printed from eBay')) {
+            this.name = LabelType.Ebay;
         } else if (combinedText.includes('Delivered By Postage Paid GB')) { 
             if (combinedText.includes('Print this label and customs document (if applicable)')) {
                 this.name = LabelType.RM;
             } else {
                 this.name = LabelType.RMMobile;
             }
-        } else if (combinedText.includes('*** Instructions *** Please attach to parcel.')) {
-            this.name = LabelType.ParcelForce;
-        } else if (combinedText.includes('Prepaid and printed from')) {
-            this.name = LabelType.Ebay;
         } else {
             this.name = LabelType.Unknown;
         }
