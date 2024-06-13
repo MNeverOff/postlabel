@@ -74,7 +74,7 @@ export class Label {
             }).join(' ').replace(/\s+/g, ' '); // collapsing multiple whitespaces into one
         }
 
-        this.pdfScale = labelData.pdfScale || 2;
+        this.pdfScale = labelData.pdfScale || 4;
 
         if (combinedText.includes('www.royalmail.com') || combinedText.includes('CUSTOMS DECLARATION')) {
             if (combinedText.includes('Print this label and customs document (if applicable)')) {
