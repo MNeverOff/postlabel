@@ -8,10 +8,10 @@ export default function Page() {
         <LegalPage>
             <h1 className="text-4xl">Privacy Policy</h1>
                 <p className="text-l">
-                    Last Updated: 21st of April, 2024
+                    Last Updated: 1st of October, 2024
                 </p>
             <h3 className="text-3xl">Overview</h3>
-            <p>This Privacy Policy outlines how PostLabel.co ("the Service") manages and processes user information. By using the Service, you agree to the terms outlined in this Privacy Policy.</p>
+            <p>This Privacy Policy outlines how PostLabel ("the Service") manages and processes user information. By using the Service, you agree to the terms outlined in this Privacy Policy.</p>
 
             <h3 className="text-3xl">Data Processing and Privacy Practices</h3>
             <p>All data processing, including PDF extraction and analytics, occurs client-side. No personally identifiable information (PII) is sent or stored on our servers. The only data collected is anonymized analytics data detailed in our <Link href="/legal/data">Data Processing Agreement</Link> as referenced in our <Link href="/legal/terms">Terms of Service</Link>.</p>
@@ -38,7 +38,7 @@ export default function Page() {
             <p>The Service complies with all latest security measures and practices. All Third-Party Services are protected with multi-factor authentication, as for the credentials for the Analytics Storage - these are held securely and never shared with anyone. Furthermore, the code is openly available on <Link href="https://github.com/MNeverOff/postlabel">GitHub</Link>.</p>
 
             <h3 className="text-3xl">Contact Information</h3>
-            <p>For any questions or concerns regarding this Privacy Policy, please contact us at <Link href="mailto:contact@postlabel.co">contact@postlabel.co</Link>.</p>
+            <p>For any questions or concerns regarding this Privacy Policy, please contact us at <Link href="mailto:contact@neveroff.dev">contact@neveroff.dev</Link>.</p>
         </LegalPage>
     );
 }

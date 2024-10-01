@@ -54,7 +54,7 @@ export default function Home() {
                     <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
                         <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
                             <h2 className="text-gray-900 text-lg title-font font-medium mb-2">The ✨ Magic ✨ happens </h2>
-                            <p className="leading-relaxed text-base">PostLabel.co takes your PDFs, scans them page by page, detects which type of page it sees (between RM, RM International, Ebay and ParcelForce) using some very dumb text detection, then it chops it out and saves as an image to use in the next step.</p>
+                            <p className="leading-relaxed text-base">PostLabel takes your PDFs, scans them page by page, detects which type of page it sees (between RM, RM International, Ebay and ParcelForce) using some very dumb text detection, then it chops it out and saves as an image to use in the next step.</p>
                             <Link className="mt-3 text-indigo-500 inline-flex items-center" href="/about">
                                 Learn More
                                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">

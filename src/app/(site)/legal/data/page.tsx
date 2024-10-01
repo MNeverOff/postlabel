@@ -7,9 +7,9 @@ export default function Page() {
     return (
         <LegalPage>
             <h1 className="text-4xl">Disclaimer: No PII Collection</h1>
-            <p>Last Updated: 21st of April, 2024</p>
+            <p>Last Updated: 1st of October, 2024</p>
 
-            <p>This Data Processing Agreement serves to clarify the processing practices of PostLabel.co ("the Service"). We explicitly state that our service does not collect or process Personally Identifiable Information (PII), as defined by the UK ICO, GDPR, UK-GDPR, and CCPA and other relevant Data Protection Regulation & Legislation.</p>
+            <p>This Data Processing Agreement serves to clarify the processing practices of PostLabel ("the Service"). We explicitly state that our service does not collect or process Personally Identifiable Information (PII), as defined by the UK ICO, GDPR, UK-GDPR, and CCPA and other relevant Data Protection Regulation & Legislation.</p>
 
             <h3 className="text-3xl">Data Processing Practices</h3>
             <p>All data processing, including PDF extraction and analytics, occurs client-side, never leaving your browser or hitting any of our servers. The Service does not transmit, store, or process any personally identifiable information on our servers.</p>

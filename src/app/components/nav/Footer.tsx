@@ -11,7 +11,7 @@ export default function Footer() {
                     <AppLogo />
                     <span className="ml-3 text-xl">PostLabel</span>
                 </Link>
-                <span className="md:text-start text-center text-sm shrink text-gray-500 sm:ml-4 sm:pl-4 md:border-l-2 sm:border-gray-200 md:py-2 md:mt-0 mt-4">© 2023 - {currentYear} PostLabel.co —
+                <span className="md:text-start text-center text-sm shrink text-gray-500 sm:ml-4 sm:pl-4 md:border-l-2 sm:border-gray-200 md:py-2 md:mt-0 mt-4">© 2023 - {currentYear} PostLabel —
                     <Link className="text-gray-600 ml-1" target="_blank" href="https://neveroff.dev">Mike Neverov</Link>
                 </span>
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">

@@ -296,7 +296,7 @@ export function usePDFHandler() {
     const handleFileDownload = async (hasMargin: boolean) => {
         preparePDF(pdfPages, UsageEventType.Download, hasMargin)
         .then(blob => {
-            saveAs(blob, `PostLabel.co Labels - ${getCurrentDateTimeFormatted()}.pdf`);
+            saveAs(blob, `PostLabel - ${getCurrentDateTimeFormatted()}.pdf`);
         });
     }
 

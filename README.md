@@ -1,8 +1,8 @@
-# PostLabel.co - Printing your Royal Mail post labels in bulk
+# PostLabel - Printing your Royal Mail post labels in bulk
 
 PostLabel is a small tool build in NextJS that allows you to convert your RoyalMail, ParcelForce and EBay shipping labels into easily printable A4 pages, suitable for home office printing.
 
-🖨️ See it live and print some labels: [PostLabel.co](https://postlabel.co/)
+🖨️ See it live and print some labels: [PostLabel](https://postlabel.neveroff.dev/)
 
 Link above will take you to a Vercel deployment of PostLabel that doesn't collect or store any of your PII and uses cookieless and aggregated tracking for stats purposes alone.
 

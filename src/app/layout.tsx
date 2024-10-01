@@ -8,7 +8,7 @@ import TopNav from '@/src/app/components/nav/TopNav'
 import Footer from '@/src/app/components/nav/Footer'
 
 const title = 'PostLabel - Easy bulk printing of postage labels';
-const description = 'PostLabel.co is a simple web tool for bulk postage labels printing for Royal Mail, Ebay and ParcelForce.';
+const description = 'PostLabel is a simple web tool for bulk postage labels printing for Royal Mail, Ebay and ParcelForce.';
 
 export const metadata: Metadata = {
     title: title,
@@ -18,10 +18,10 @@ export const metadata: Metadata = {
         description: description,
         images: [
             {
-                url: 'https://www.postlabel.co/landing-image-open-graph-01-compressed.png',
+                url: 'https://postlabel.neveroff.dev/landing-image-open-graph-01-compressed.png',
                 width: 1200,
                 height: 630,
-                alt: 'PostLabel.co Example',
+                alt: 'PostLabel Example',
             },
         ],
     },
@@ -35,7 +35,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 {children}
                 <Analytics />
                 <Footer />
-                <script defer data-domain="postlabel.co" src="https://plausible.devguild.ltd/js/script.js"></script>
+                <script defer data-domain="postlabel.neveroff.dev" src="https://plausible.devguild.ltd/js/script.js"></script>
             </body>
         </html>
     )

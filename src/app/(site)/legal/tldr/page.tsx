@@ -8,7 +8,7 @@ export default function Page() {
         <LegalPage>
             <h1 className="text-4xl">Too Long & Didn't Read</h1>
                 <p className="text-l">
-                    Last Updated: 21st of April, 2024
+                Last Updated: 1st of October, 2024
                 </p>
             <p>The goal of this page is to provide a no-nonsense, simple and human-readable explanation of legal aspects of using this app.</p>
 

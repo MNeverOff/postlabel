@@ -59,11 +59,11 @@ export default function Page() {
 
                 <div className="mt-12 space-y-8">
                     <ExpandableSection id="data-handling" title="How is my data handled? Is it stored or sold?">
-                        <p>PostLabel.co does not sore any PII outside of what GDPR and most regulators consider "strictly necessary". Basically, we only store your session details that Cloudflare has logged to prevent DDoS and other nasty stuff and what Vercel shows for performance & usage analytics. We also use self-hosted Plausible Analytics that doesn't collect any PII. Go to <Link href='/legal/tldr'>Legal Section</Link> for more details.</p>
+                        <p>PostLabel does not sore any PII outside of what GDPR and most regulators consider "strictly necessary". Basically, we only store your session details that Cloudflare has logged to prevent DDoS and other nasty stuff and what Vercel shows for performance & usage analytics. We also use self-hosted Plausible Analytics that doesn't collect any PII. Go to <Link href='/legal/tldr'>Legal Section</Link> for more details.</p>
                     </ExpandableSection>
 
                     <ExpandableSection id="source-code" title="Can I make sure of it? Where is the source code?">
-                        <p>PostLabel.co is available as an MIT-Licensed open-source and free solution that you can run locally if you so desire, or check whether the implementation conforms to your expectations. Navigate to the  <Link href='https://github.com/MNeverOff/postlabel'>GitHub Repository</Link> for more details.</p>
+                        <p>PostLabel is available as an MIT-Licensed open-source and free solution that you can run locally if you so desire, or check whether the implementation conforms to your expectations. Navigate to the  <Link href='https://github.com/MNeverOff/postlabel'>GitHub Repository</Link> for more details.</p>
                     </ExpandableSection>
 
                     <ExpandableSection id="royal-mail-formats" title="My Royal Mail label is not aligned / cropped correctly, what do I do?">
@@ -85,7 +85,7 @@ export default function Page() {
                     </ExpandableSection>
 
                     <ExpandableSection id="questions-concerns-suggestions" title="I have a question / concern / suggestion / feature request. How can I reach you?">
-                        <p>For questions or concerns regarding these Terms of Service, please contact us at <Link href="mailto:contact@postlabel.co">contact@postlabel.co</Link>. You can also @ me at <Link href="https://mas.to/@MNeverOff" target='_blank'>@MNeverOff@mas.to</Link> or <Link href="https://twitter.com/MNeverOff" target="_blank">@MNeverOff</Link> if you fancy that.</p>
+                        <p>For questions or concerns regarding these Terms of Service, please contact us at <Link href="mailto:contact@neveroff.dev">contact@neveroff.dev</Link>. You can also @ me at <Link href="https://mas.to/@MNeverOff" target='_blank'>@MNeverOff@mas.to</Link> or <Link href="https://twitter.com/MNeverOff" target="_blank">@MNeverOff</Link> if you fancy that.</p>
                     </ExpandableSection>
                 </div>
             </div>

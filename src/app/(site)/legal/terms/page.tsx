@@ -7,10 +7,10 @@ export default function Page() {
     return (
         <LegalPage>
             <h1 className="text-4xl">Terms of Service</h1>
-            <p className='text-l'>Last Updated: 21st of April, 2024</p>
+            <p className='text-l'>Last Updated: 1st of October, 2024</p>
 
             <h3 className='text-3xl'>Acceptance of Terms</h3>
-            <p>By accessing and using PostLabel.co ("the Service"), you agree to comply with and be bound by these Terms of Service as well as <Link href='/legal/privacy'>Privacy Policy</Link> and the <Link href='/legal/data'>Data Processing Agreement</Link>.</p>
+            <p>By accessing and using PostLabel ("the Service"), you agree to comply with and be bound by these Terms of Service as well as <Link href='/legal/privacy'>Privacy Policy</Link> and the <Link href='/legal/data'>Data Processing Agreement</Link>.</p>
             
             <h3 className='text-3xl'>Description of Service</h3>
             <p>The Service provides an open-source tool for the extraction of sections of PDFs of post / mailing labels and their combination onto pages of various size (i.e. A4) for printing, tailored for Royal Mail, eBay, ParcelForce, and other services. The entire data processing occurs client-side, never leaving your browser or hitting any of our servers.</p>
@@ -46,7 +46,7 @@ export default function Page() {
             <p>We may update these Terms of Service from time to time. Your continued use of the Service after changes constitutes acceptance of the updated terms.</p>
             
             <h3 className='text-3xl'>Contact</h3>
-            <p>For questions or concerns regarding these Terms of Service, please contact us at <Link href="mailto:contact@postlabel.co">contact@postlabel.co</Link>.</p>
+            <p>For questions or concerns regarding these Terms of Service, please contact us at <Link href="mailto:contact@neveroff.dev">contact@neveroff.dev</Link>.</p>
         </LegalPage>
     );
 }
