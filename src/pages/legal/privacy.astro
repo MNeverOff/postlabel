@@ -3,6 +3,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import PrivacyPage from '../../components/legal/PrivacyPage';
 ---
 
-<BaseLayout title="Privacy Policy - PostLabel">
+<BaseLayout
+  title="Privacy Policy - PostLabel"
+  description="How PostLabel handles your data — client-side PDF processing, no file uploads, and aggregate analytics only."
+>
   <PrivacyPage client:load />
 </BaseLayout>

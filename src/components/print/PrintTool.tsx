@@ -14,6 +14,9 @@ export default function PrintTool() {
 
   return (
     <section className="text-gray-600 body-font flex flex-col gap-4 flex-grow">
+      <h1 className="sr-only">
+        Bulk postage label printer for Royal Mail, eBay and ParcelForce
+      </h1>
       <div className="container p-4 mx-auto space-y-4">
         <div
           className="flex flex-col xl:w-3/4 w-full bg-orange-100 text-orange-700 mx-auto p-4 rounded text-sm"
