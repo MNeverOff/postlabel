@@ -1,8 +1,24 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebApplication',
+  name: 'PostLabel',
+  url: 'https://postlabel.neveroff.dev/',
+  description:
+    'Free web tool for bulk postage label printing. Combines Royal Mail, eBay and ParcelForce PDF labels onto A4 pages with four labels per sheet.',
+  applicationCategory: 'BusinessApplication',
+  operatingSystem: 'Any',
+  offers: {
+    '@type': 'Offer',
+    price: '0',
+    priceCurrency: 'GBP',
+  },
+};
 ---
 
-<BaseLayout>
+<BaseLayout jsonLd={jsonLd}>
   <main>
     <section class="text-gray-600 body-font flex">
       <div class="container mx-auto flex px-4 py-12 mb-8 md:flex-row flex-col items-center">

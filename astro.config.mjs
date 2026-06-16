@@ -9,6 +9,7 @@ const posthogApiHost = 'https://eu.i.posthog.com';
 
 export default defineConfig({
   site: 'https://postlabel.neveroff.dev',
+  trailingSlash: 'never',
   output: 'static',
   adapter: vercel(),
   integrations: [react(), tailwind(), sitemap()],
